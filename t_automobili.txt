@@ -1,0 +1,17 @@
+t_automobili 
+
+id					numero		auto_increment	PRIMARY KEY unique
+marca					stringa		varchar(15)		NOT NULL
+modello					stringa		varchar(50)		NOT NULL
+tipo_carrozzeria			stringa		varchar(15)		NULL
+anno					data		Year			NOT NULL
+carburante				stringa		varchar(15)		NOT NULL
+consumo					numero		Tinyint			NOT NULL
+cilindrata				numero		Mediumint		NOT NULL
+cavalli					numero		Mediumint		NOT NULL
+dimensioni				numero		Tinyint			NULL
+peso					numero		Tinyint			NULL
+numero_porte				numero		Tinyint			NOT NULL
+posti					numero		Tinyint			NOT NULL
+velocità_massima			numero		Mediumint		NULL
+prezzo 					numero 		Float(8,3)		NOT NULL
